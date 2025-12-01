@@ -18,7 +18,7 @@ repo_caption = """**
 @app.on_message(filters.command("repo"))
 async def show_repo(_, msg):
     buttons = [
-        [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+        [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨", url=f"https://t.me/Jaanvi_music_robot?startgroup=true")],
         [
             InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url="https://t.me/Vip_chor"),
             InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ll_star_bots_ll")
