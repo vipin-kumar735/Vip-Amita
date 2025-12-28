@@ -45,6 +45,12 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/vipin-kumar735/Vip-A
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
+API_URL = getenv("API_URL", 'https://teaminflex.xyz')
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.https://teaminflex.xyz')
+API_KEY = getenv("API_KEY", 'INFLEX86599428D')
+
+
+
 # ── Support links ──────────────────────────────────────────────────────────────
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TEAM_CHOR")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_bots_ll")
